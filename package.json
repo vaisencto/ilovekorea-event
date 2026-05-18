@@ -1,0 +1,13 @@
+{
+  "name": "ilovekorea-landing",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "optimize": "node scripts/optimize-images.mjs",
+    "build-pages": "node scripts/build-pages.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.5"
+  }
+}
