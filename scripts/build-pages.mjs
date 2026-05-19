@@ -12,6 +12,7 @@ const countries = [
   { slug: "russia", ko: "러시아" },
   { slug: "thailand", ko: "태국" },
   { slug: "uzbekistan", ko: "우즈베키스탄" },
+  { slug: "vietnam", ko: "베트남" },
 ];
 
 const pageHTML = ({ slug, ko }) => `<!doctype html>

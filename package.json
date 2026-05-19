@@ -5,9 +5,13 @@
   "type": "module",
   "scripts": {
     "optimize": "node scripts/optimize-images.mjs",
-    "build-pages": "node scripts/build-pages.mjs"
+    "build-pages": "node scripts/build-pages.mjs",
+    "build-qrcodes": "node scripts/build-qrcodes.mjs"
   },
   "devDependencies": {
     "sharp": "^0.33.5"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
   }
 }
